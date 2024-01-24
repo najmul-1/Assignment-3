@@ -149,3 +149,37 @@ main{
 
 
 
+/*form section*/
+form input{
+    background: #13131808
+    ;
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    background: #13131808
+    ;
+    border-radius: 16px;
+}
+
+
+.container>div{
+    width: 230px;
+    height: auto;
+    margin: 30px;
+}
+
+@media screen and (max-width:640px) {
+    .container> div{
+         text-align: center;
+         margin: 10px;
+    }
+   .container .f-1{
+    width: 200px;
+   }
+   .container .f-2{
+    width: 200px;
+   }
+}
+
